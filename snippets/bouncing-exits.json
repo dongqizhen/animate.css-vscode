@@ -1,0 +1,32 @@
+{
+	"animatecss-bounceOut": {
+		"prefix": "animatecss-bounceOut",
+		"body": "\r\n@-webkit-keyframes bounceOut {\r\n  0% {\r\n    -webkit-transform: scale(1);\r\n    transform: scale(1);\r\n  }\r\n\r\n  25% {\r\n    -webkit-transform: scale(.95);\r\n    transform: scale(.95);\r\n  }\r\n\r\n  50% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.1);\r\n    transform: scale(1.1);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.3);\r\n    transform: scale(.3);\r\n  }\r\n}\r\n\r\n@keyframes bounceOut {\r\n  0% {\r\n    -webkit-transform: scale(1);\r\n    -ms-transform: scale(1);\r\n    transform: scale(1);\r\n  }\r\n\r\n  25% {\r\n    -webkit-transform: scale(.95);\r\n    -ms-transform: scale(.95);\r\n    transform: scale(.95);\r\n  }\r\n\r\n  50% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.1);\r\n    -ms-transform: scale(1.1);\r\n    transform: scale(1.1);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.3);\r\n    -ms-transform: scale(.3);\r\n    transform: scale(.3);\r\n  }\r\n}\r\n\r\n.bounceOut {\r\n  -webkit-animation-name: bounceOut;\r\n  animation-name: bounceOut;\r\n}\r\n",
+		"description": "bounceOut - Bouncing Exits",
+		"scope": ""
+	},
+	"animatecss-bounceOutDown": {
+		"prefix": "animatecss-bounceOutDown",
+		"body": "\r\n@-webkit-keyframes bounceOutDown {\r\n  0% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n\r\n  20% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(-20px);\r\n    transform: translateY(-20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(2000px);\r\n    transform: translateY(2000px);\r\n  }\r\n}\r\n\r\n@keyframes bounceOutDown {\r\n  0% {\r\n    -webkit-transform: translateY(0);\r\n    -ms-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n\r\n  20% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(-20px);\r\n    -ms-transform: translateY(-20px);\r\n    transform: translateY(-20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(2000px);\r\n    -ms-transform: translateY(2000px);\r\n    transform: translateY(2000px);\r\n  }\r\n}\r\n\r\n.bounceOutDown {\r\n  -webkit-animation-name: bounceOutDown;\r\n  animation-name: bounceOutDown;\r\n}\r\n",
+		"description": "bounceOutDown - Bouncing Exits",
+		"scope": ""
+	},
+	"animatecss-bounceOutLeft": {
+		"prefix": "animatecss-bounceOutLeft",
+		"body": "\r\n@-webkit-keyframes bounceOutLeft {\r\n  0% {\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n\r\n  20% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(20px);\r\n    transform: translateX(20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(-2000px);\r\n    transform: translateX(-2000px);\r\n  }\r\n}\r\n\r\n@keyframes bounceOutLeft {\r\n  0% {\r\n    -webkit-transform: translateX(0);\r\n    -ms-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n\r\n  20% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(20px);\r\n    -ms-transform: translateX(20px);\r\n    transform: translateX(20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(-2000px);\r\n    -ms-transform: translateX(-2000px);\r\n    transform: translateX(-2000px);\r\n  }\r\n}\r\n\r\n.bounceOutLeft {\r\n  -webkit-animation-name: bounceOutLeft;\r\n  animation-name: bounceOutLeft;\r\n}\r\n\r\n",
+		"description": "bounceOutLeft - Bouncing Exits",
+		"scope": ""
+	},
+	"animatecss-bounceOutRight": {
+		"prefix": "animatecss-bounceOutRight",
+		"body": "\r\n@-webkit-keyframes bounceOutRight {\r\n  0% {\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n\r\n  20% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(-20px);\r\n    transform: translateX(-20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(2000px);\r\n    transform: translateX(2000px);\r\n  }\r\n}\r\n\r\n@keyframes bounceOutRight {\r\n  0% {\r\n    -webkit-transform: translateX(0);\r\n    -ms-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n\r\n  20% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(-20px);\r\n    -ms-transform: translateX(-20px);\r\n    transform: translateX(-20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(2000px);\r\n    -ms-transform: translateX(2000px);\r\n    transform: translateX(2000px);\r\n  }\r\n}\r\n\r\n.bounceOutRight {\r\n  -webkit-animation-name: bounceOutRight;\r\n  animation-name: bounceOutRight;\r\n}\r\n",
+		"description": "bounceOutRight - Bouncing Exits",
+		"scope": ""
+	},
+	"animatecss-bounceOutUp": {
+		"prefix": "animatecss-bounceOutUp",
+		"body": "\r\n@-webkit-keyframes bounceOutUp {\r\n  0% {\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n\r\n  20% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(20px);\r\n    transform: translateY(20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-2000px);\r\n    transform: translateY(-2000px);\r\n  }\r\n}\r\n\r\n@keyframes bounceOutUp {\r\n  0% {\r\n    -webkit-transform: translateY(0);\r\n    -ms-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n\r\n  20% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(20px);\r\n    -ms-transform: translateY(20px);\r\n    transform: translateY(20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-2000px);\r\n    -ms-transform: translateY(-2000px);\r\n    transform: translateY(-2000px);\r\n  }\r\n}\r\n\r\n.bounceOutUp {\r\n  -webkit-animation-name: bounceOutUp;\r\n  animation-name: bounceOutUp;\r\n}\r\n",
+		"description": "bounceOutUp - Bouncing Exits",
+		"scope": ""
+	}
+}

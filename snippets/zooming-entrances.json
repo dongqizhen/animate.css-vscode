@@ -1,0 +1,32 @@
+{
+	"animatecss-zoomIn": {
+		"prefix": "animatecss-zoomIn",
+		"body": "\r\n@-webkit-keyframes zoomIn {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.3);\r\n    transform: scale(.3);\r\n  }\r\n\r\n  50% {\r\n    opacity: 1;\r\n  }\r\n}\r\n\r\n@keyframes zoomIn {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.3);\r\n    -ms-transform: scale(.3);\r\n    transform: scale(.3);\r\n  }\r\n\r\n  50% {\r\n    opacity: 1;\r\n  }\r\n}\r\n\r\n.zoomIn {\r\n  -webkit-animation-name: zoomIn;\r\n  animation-name: zoomIn;\r\n}\r\n",
+		"description": "zoomIn - Zooming Entrances",
+		"scope": ""
+	},
+	"animatecss-zoomInDown": {
+		"prefix": "animatecss-zoomInDown",
+		"body": "\r\n@-webkit-keyframes zoomInDown {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.1) translateY(-2000px);\r\n    transform: scale(.1) translateY(-2000px);\r\n    -webkit-animation-timing-function: ease-in-out;\r\n    animation-timing-function: ease-in-out;\r\n  }\r\n\r\n  60% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(.475) translateY(60px);\r\n    transform: scale(.475) translateY(60px);\r\n    -webkit-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n}\r\n\r\n@keyframes zoomInDown {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.1) translateY(-2000px);\r\n    -ms-transform: scale(.1) translateY(-2000px);\r\n    transform: scale(.1) translateY(-2000px);\r\n    -webkit-animation-timing-function: ease-in-out;\r\n    animation-timing-function: ease-in-out;\r\n  }\r\n\r\n  60% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(.475) translateY(60px);\r\n    -ms-transform: scale(.475) translateY(60px);\r\n    transform: scale(.475) translateY(60px);\r\n    -webkit-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n}\r\n\r\n.zoomInDown {\r\n  -webkit-animation-name: zoomInDown;\r\n  animation-name: zoomInDown;\r\n}\r\n",
+		"description": "zoomInDown - Zooming Entrances",
+		"scope": ""
+	},
+	"animatecss-zoomInLeft": {
+		"prefix": "animatecss-zoomInLeft",
+		"body": "\r\n@-webkit-keyframes zoomInLeft {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.1) translateX(-2000px);\r\n    transform: scale(.1) translateX(-2000px);\r\n    -webkit-animation-timing-function: ease-in-out;\r\n    animation-timing-function: ease-in-out;\r\n  }\r\n\r\n  60% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(.475) translateX(48px);\r\n    transform: scale(.475) translateX(48px);\r\n    -webkit-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n}\r\n\r\n@keyframes zoomInLeft {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.1) translateX(-2000px);\r\n    -ms-transform: scale(.1) translateX(-2000px);\r\n    transform: scale(.1) translateX(-2000px);\r\n    -webkit-animation-timing-function: ease-in-out;\r\n    animation-timing-function: ease-in-out;\r\n  }\r\n\r\n  60% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(.475) translateX(48px);\r\n    -ms-transform: scale(.475) translateX(48px);\r\n    transform: scale(.475) translateX(48px);\r\n    -webkit-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n}\r\n\r\n.zoomInLeft {\r\n  -webkit-animation-name: zoomInLeft;\r\n  animation-name: zoomInLeft;\r\n}\r\n",
+		"description": "zoomInLeft - Zooming Entrances",
+		"scope": ""
+	},
+	"animatecss-zoomInRight": {
+		"prefix": "animatecss-zoomInRight",
+		"body": "\r\n@-webkit-keyframes zoomInRight {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.1) translateX(2000px);\r\n    transform: scale(.1) translateX(2000px);\r\n    -webkit-animation-timing-function: ease-in-out;\r\n    animation-timing-function: ease-in-out;\r\n  }\r\n\r\n  60% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(.475) translateX(-48px);\r\n    transform: scale(.475) translateX(-48px);\r\n    -webkit-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n}\r\n\r\n@keyframes zoomInRight {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.1) translateX(2000px);\r\n    -ms-transform: scale(.1) translateX(2000px);\r\n    transform: scale(.1) translateX(2000px);\r\n    -webkit-animation-timing-function: ease-in-out;\r\n    animation-timing-function: ease-in-out;\r\n  }\r\n\r\n  60% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(.475) translateX(-48px);\r\n    -ms-transform: scale(.475) translateX(-48px);\r\n    transform: scale(.475) translateX(-48px);\r\n    -webkit-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n}\r\n\r\n.zoomInRight {\r\n  -webkit-animation-name: zoomInRight;\r\n  animation-name: zoomInRight;\r\n}\r\n",
+		"description": "zoomInRight - Zooming Entrances",
+		"scope": ""
+	},
+	"animatecss-zoomInUp": {
+		"prefix": "animatecss-zoomInUp",
+		"body": "\r\n@-webkit-keyframes zoomInUp {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.1) translateY(2000px);\r\n    transform: scale(.1) translateY(2000px);\r\n    -webkit-animation-timing-function: ease-in-out;\r\n    animation-timing-function: ease-in-out;\r\n  }\r\n\r\n  60% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(.475) translateY(-60px);\r\n    transform: scale(.475) translateY(-60px);\r\n    -webkit-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n}\r\n\r\n@keyframes zoomInUp {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(.1) translateY(2000px);\r\n    -ms-transform: scale(.1) translateY(2000px);\r\n    transform: scale(.1) translateY(2000px);\r\n    -webkit-animation-timing-function: ease-in-out;\r\n    animation-timing-function: ease-in-out;\r\n  }\r\n\r\n  60% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(.475) translateY(-60px);\r\n    -ms-transform: scale(.475) translateY(-60px);\r\n    transform: scale(.475) translateY(-60px);\r\n    -webkit-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n}\r\n\r\n.zoomInUp {\r\n  -webkit-animation-name: zoomInUp;\r\n  animation-name: zoomInUp;\r\n}\r\n",
+		"description": "zoomInUp - Zooming Entrances",
+		"scope": ""
+	}
+}

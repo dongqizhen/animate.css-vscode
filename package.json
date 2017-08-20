@@ -1,0 +1,86 @@
+{
+    "name": "animate-css",
+    "displayName": "Animate.css",
+    "description": "animate.css development toolkit",
+    "version": "1.0.0",
+    "publisher": "Hridoy",
+    "icon": "img/icon.png",
+    "galleryBanner": {
+		"color": "#1E81C1",
+		"theme": "light"
+    },
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hridoy/animate.css-vscode"
+    },
+    "keywords": [
+        "css",
+        "animate",
+        "animatecss",
+        "animate.css",
+        "animate.css snippets"
+    ],
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "'css'",
+                "path": "./snippets/attention-seekers.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/bouncing-entrances.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/bouncing-exits.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/fading-entrances.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/fading-exits.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/flippers.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/lightspeed.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/rotating-entrances.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/rotating-exits.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/sliders.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/specials.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/zooming-entrances.json"
+            },
+            {
+                "language": "'css'",
+                "path": "./snippets/zooming-exits.json"
+            }
+        ]
+    }
+}

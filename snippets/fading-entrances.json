@@ -1,0 +1,56 @@
+{
+	"animatecss-fadeIn": {
+		"prefix": "animatecss-fadeIn",
+		"body": "\r\n@-webkit-keyframes fadeIn {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n\r\n@keyframes fadeIn {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n}\r\n\r\n.fadeIn {\r\n  -webkit-animation-name: fadeIn;\r\n  animation-name: fadeIn;\r\n}\r\n",
+		"description": "fadeIn - Fading Entrances",
+		"scope": ""
+	},
+	"animatecss-fadeInDown": {
+		"prefix": "animatecss-fadeInDown",
+		"body": "\r\n@-webkit-keyframes fadeInDown {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-20px);\r\n    transform: translateY(-20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n}\r\n\r\n@keyframes fadeInDown {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-20px);\r\n    -ms-transform: translateY(-20px);\r\n    transform: translateY(-20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(0);\r\n    -ms-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n}\r\n\r\n.fadeInDown {\r\n  -webkit-animation-name: fadeInDown;\r\n  animation-name: fadeInDown;\r\n}\r\n",
+		"description": "fadeInDown - Fading Entrances",
+		"scope": ""
+	},
+	"animatecss-fadeInDownBig": {
+		"prefix": "animatecss-fadeInDownBig",
+		"body": "\r\n@-webkit-keyframes fadeInDownBig {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-2000px);\r\n    transform: translateY(-2000px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n}\r\n\r\n@keyframes fadeInDownBig {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(-2000px);\r\n    -ms-transform: translateY(-2000px);\r\n    transform: translateY(-2000px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(0);\r\n    -ms-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n}\r\n\r\n.fadeInDownBig {\r\n  -webkit-animation-name: fadeInDownBig;\r\n  animation-name: fadeInDownBig;\r\n}\r\n",
+		"description": "fadeInDownBig - Fading Entrances",
+		"scope": ""
+	},
+	"animatecss-fadeInLeft": {
+		"prefix": "animatecss-fadeInLeft",
+		"body": "\r\n@-webkit-keyframes fadeInLeft {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(-20px);\r\n    transform: translateX(-20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n}\r\n\r\n@keyframes fadeInLeft {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(-20px);\r\n    -ms-transform: translateX(-20px);\r\n    transform: translateX(-20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(0);\r\n    -ms-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n}\r\n\r\n.fadeInLeft {\r\n  -webkit-animation-name: fadeInLeft;\r\n  animation-name: fadeInLeft;\r\n}\r\n",
+		"description": "fadeInLeft - Fading Entrances",
+		"scope": ""
+	},
+	"animatecss-fadeInLeftBig": {
+		"prefix": "animatecss-fadeInLeftBig",
+		"body": "\r\n@-webkit-keyframes fadeInLeftBig {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(-2000px);\r\n    transform: translateX(-2000px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n}\r\n\r\n@keyframes fadeInLeftBig {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(-2000px);\r\n    -ms-transform: translateX(-2000px);\r\n    transform: translateX(-2000px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(0);\r\n    -ms-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n}\r\n\r\n.fadeInLeftBig {\r\n  -webkit-animation-name: fadeInLeftBig;\r\n  animation-name: fadeInLeftBig;\r\n}\r\n",
+		"description": "fadeInLeftBig - Fading Entrances",
+		"scope": ""
+	},
+	"animatecss-fadeInRight": {
+		"prefix": "animatecss-fadeInRight",
+		"body": "\r\n@-webkit-keyframes fadeInRight {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(20px);\r\n    transform: translateX(20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n}\r\n\r\n@keyframes fadeInRight {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(20px);\r\n    -ms-transform: translateX(20px);\r\n    transform: translateX(20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(0);\r\n    -ms-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n}\r\n\r\n.fadeInRight {\r\n  -webkit-animation-name: fadeInRight;\r\n  animation-name: fadeInRight;\r\n}\r\n",
+		"description": "fadeInRight - Fading Entrances",
+		"scope": ""
+	},
+	"animatecss-fadeInRightBig": {
+		"prefix": "animatecss-fadeInRightBig",
+		"body": "\r\n@-webkit-keyframes fadeInRightBig {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(2000px);\r\n    transform: translateX(2000px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n}\r\n\r\n@keyframes fadeInRightBig {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateX(2000px);\r\n    -ms-transform: translateX(2000px);\r\n    transform: translateX(2000px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateX(0);\r\n    -ms-transform: translateX(0);\r\n    transform: translateX(0);\r\n  }\r\n}\r\n\r\n.fadeInRightBig {\r\n  -webkit-animation-name: fadeInRightBig;\r\n  animation-name: fadeInRightBig;\r\n}\r\n",
+		"description": "fadeInRightBig - Fading Entrances",
+		"scope": ""
+	},
+	"animatecss-fadeInUp": {
+		"prefix": "animatecss-fadeInUp",
+		"body": "\r\n@-webkit-keyframes fadeInUp {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(20px);\r\n    transform: translateY(20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n}\r\n\r\n@keyframes fadeInUp {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(20px);\r\n    -ms-transform: translateY(20px);\r\n    transform: translateY(20px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(0);\r\n    -ms-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n}\r\n\r\n.fadeInUp {\r\n  -webkit-animation-name: fadeInUp;\r\n  animation-name: fadeInUp;\r\n}\r\n",
+		"description": "fadeInUp - Fading Entrances",
+		"scope": ""
+	},
+	"animatecss-fadeInUpBig": {
+		"prefix": "animatecss-fadeInUpBig",
+		"body": "\r\n@-webkit-keyframes fadeInUpBig {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(2000px);\r\n    transform: translateY(2000px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n}\r\n\r\n@keyframes fadeInUpBig {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-transform: translateY(2000px);\r\n    -ms-transform: translateY(2000px);\r\n    transform: translateY(2000px);\r\n  }\r\n\r\n  100% {\r\n    opacity: 1;\r\n    -webkit-transform: translateY(0);\r\n    -ms-transform: translateY(0);\r\n    transform: translateY(0);\r\n  }\r\n}\r\n\r\n.fadeInUpBig {\r\n  -webkit-animation-name: fadeInUpBig;\r\n  animation-name: fadeInUpBig;\r\n}\r\n",
+		"description": "fadeInUpBig - Fading Entrances",
+		"scope": ""
+	}
+}
